@@ -26,6 +26,7 @@
     "api",
     "webapi",
     "Auth0",
+    "OAuth2",
     "Jwt",
     "Token",
     "vNext"
