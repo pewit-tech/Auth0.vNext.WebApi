@@ -1,0 +1,71 @@
+﻿{
+  "name": "Auth0.vNext.WebApi",
+  "description": "Auth0 vNext WebApi implementation using Jwt tokens",
+  "author": {
+    "name": "Florin Uifelean",
+    "url": "http://www.pewit.co.uk"
+  },
+  "maintainers": [
+    {
+      "name": "Florin Uifelean",
+      "email": "florin@pewit.co.uk"
+    }
+  ],
+  "homepage": "https://github.com/pewit-tech/Auth0.vNext.WebApi",
+  "contributors": [
+    {
+      "name": "Florin Uifelean",
+      "email": "florin@pewit.co.uk"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pewit-tech/Auth0.vNext.WebApi.git"
+  },
+  "keywords": [
+    "api",
+    "webapi",
+    "Auth0",
+    "Jwt",
+    "Token",
+    "vNext"
+  ],
+  "license": "Apache-2.0",
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-*",
+    "Microsoft.AspNet.Mvc": "6.0.0-*",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-*",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-*",
+    "Microsoft.Extensions.Logging": "1.0.0-*",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-*",
+    "Microsoft.Extensions.Logging.Debug": "1.0.0-*",
+    "Microsoft.AspNet.Authentication.OAuth": "1.0.0-*",
+    "Microsoft.AspNet.Authentication.JwtBearer": "1.0.0-*",
+    "Microsoft.AspNet.Cors": "6.0.0-*"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}
